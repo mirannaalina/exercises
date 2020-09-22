@@ -12,6 +12,13 @@ public class MainC {
         employees.add(new Employee("se",30));
         employees.add(new Employee("erf",20));
 
-        Collections.sort(employees, (Employee employee1, Employee employee2));
+        for(Employee emp : employees){
+            System.out.println(emp.getName());
+        }
+
+        System.out.println("======");
+
+        Collections.sort(employees, (Employee em1, Employee em2) -> em1.getName().compareTo(em2.getName()));
+
     }
 }
