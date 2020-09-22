@@ -17,6 +17,11 @@ public class MainC {
             new Thread(()-> System.out.println(emp.getAge())).start();
         }
 
+        employees.forEach(employee -> {
+            System.out.println(employee.getName());
+            System.out.println(employee.getAge());
+        });
+
         System.out.println("======");
 
         Collections.sort(employees, (Employee em1, Employee em2) -> em1.getName().compareTo(em2.getName()));}
