@@ -2,6 +2,7 @@ package LLambdaTop.functional;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class Mains {
 
@@ -33,6 +34,20 @@ public class Mains {
 //        }
 
         employeeList.forEach(employee -> {
+            if(employee.getAge()>30){
+                System.out.println(employee.getName());
+            }
+        });
+    }
+
+    private static void printEmployeesByAge(List<Employee> employees, String ageText, Predicate<Employee> ageCondition){
+        System.out.println("over 30 ");
+//        for(Employee employee :employees){
+//            if(ageCondition.test(employee)){
+//                System.out.println(employee.getName());
+//           }
+//        }
+        employees.forEach(employee -> {
             if(employee.getAge()>30){
                 System.out.println(employee.getName());
             }
