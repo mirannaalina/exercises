@@ -3,10 +3,7 @@ package LLambdaTop.functional;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.function.Function;
-import java.util.function.IntPredicate;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 public class Mains {
 
@@ -52,6 +49,8 @@ public class Mains {
 
         System.out.println("-------------------------");
         //get last name from list
+
+        //function
         Function<Employee, String> getLastName = (Employee employee)->{
             return employee.getName().substring(employee.getName().indexOf(' ')+1);
         };
@@ -63,6 +62,35 @@ public class Mains {
             return employee.getName().substring(0,employee.getName().indexOf(' '));
         };
 
+        System.out.println("------------------------");
+        //uppercase function
+
+        Function<Employee, String> upperCase = employee -> employee.getName().toUpperCase();
+        Function<String, String> firstName = name-> name.substring(0,name.indexOf(' '));
+        Function chainedFunction = upperCase.andThen(firstName);
+        System.out.println(chainedFunction.apply(employeeList.get(0)));
+
+        //bifunction
+
+        BiFunction<String, Employee, String> concatAge = (String name, Employee employee)->{
+            return name.concat(" " + employee.getAge());
+        };
+
+        String upperName = upperCase.apply(employeeList.get(0));
+        System.out.println(concatAge.apply(upperName,employeeList.get(0)));
+
+        //intunartoperator
+
+        IntUnaryOperator incBy5 = i->i+5;
+        System.out.println(incBy5.applyAsInt(10));
+
+
+        //consumer
+
+        Consumer<String> s1 = s-> s.toUpperCase();
+        Consumer<String> s2 = s-> System.out.println(s);
+        s1.accept("hey");
+        s2.accept("hello ");
 
 
         //object in, nothing out
