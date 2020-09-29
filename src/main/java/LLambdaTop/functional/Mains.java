@@ -2,6 +2,7 @@ package LLambdaTop.functional;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 
 public class Mains {
@@ -19,6 +20,19 @@ public class Mains {
         employeeList.add(sol);
         employeeList.add(al);
         employeeList.add(cri);
+
+        printEmployeesByAge(employeeList, "employer younger than 25 ", new Predicate<Employee>() {
+            @Override
+            public boolean test(Employee employee) {
+                return employee.getAge()<25;
+            }
+        });
+
+        IntPredicate intp = i -> i>15;
+        System.out.println(intp.test(10));
+        int a=20;
+        System.out.println(intp.test(a+5));
+        System.out.println("----------------------------------");
 
         //object in, nothing out
         //consumer
