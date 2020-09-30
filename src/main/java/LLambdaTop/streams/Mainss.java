@@ -3,6 +3,7 @@ package LLambdaTop.streams;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Mainss {
     public static void main(String[] args) {
@@ -33,5 +34,14 @@ public class Mainss {
                 .filter(s->s.startsWith("G"))
                 .sorted()
                 .forEach(System.out::println);
+        System.out.println("=======================");
+        Stream<String> ioNumber = Stream.of("I23","I67","I88","I99");
+        Stream<String> inNumber = Stream.of("N56","N98");
+        Stream<String> concatStream = Stream.concat(ioNumber,inNumber);
+        System.out.println(concatStream
+                .distinct()
+                .peek(System.out::println)//print all the values
+                .count());//count the values
+
     }
 }
