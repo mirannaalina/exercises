@@ -1,17 +1,23 @@
 package test;
 
-import java.util.List;
+
+import java.util.Arrays;
+import java.util.Collections;
+
 
 public class Bio {
 
 
-    int[] L = {2,2,3,3,4,5,6,7,8};
-    int[] X = {0,10};
+    Integer[] L = {2,2,3,3,4,5,6,7,8};
+    Integer[] X = {0,10};
+
     int y=2;
 
-    public static void partialDigest(int[] L ){
+    public static void partialDigest(Integer[] L ){
+        int max = Collections.max(Arrays.asList(L));//5
+        Integer[] Lnew = new Integer[L.length-max];
+        Integer[] X= {0,max};
 
-        int width=9;
     }
 
     public static void place(int[] L,int[] X){
