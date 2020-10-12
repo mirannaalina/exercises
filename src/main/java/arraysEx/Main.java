@@ -98,7 +98,7 @@ public class Main {
         }
 
         System.out.println("Name : "+ existingContactRecord.getName()+ "phone number is "+existingContactRecord.getPhoneNumber());
-        
+
         if(mobilePhone.removeContact(existingContactRecord)){
             System.out.println("Successfully deleted");
         }else{
