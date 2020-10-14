@@ -2,11 +2,12 @@ package arrayListCha;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 
 public class Main {
 
-    private static ArrayList<Album> albums = new ArrayList<>();
+    private static List<Album> albums = new ArrayList<>();
 
     public static void main(String[] args) {
 
@@ -25,7 +26,7 @@ public class Main {
         album.addSong("eee",2.6);
         albums.add(album);
 
-        LinkedList<Song> playlist =  new LinkedList<>();
+        List<Song> playlist =  new LinkedList<>();
         albums.get(0).addToPlayList("ssss",playlist);
         albums.get(3).addToPlayList("tttt",playlist);
         albums.get(0).addToPlayList("notexist",playlist);
@@ -35,7 +36,7 @@ public class Main {
 
     }
 
-    private static void play(LinkedList<Song> playList){
+    private static void play(List<Song> playList){
         ListIterator<Song> listIterator = playList.listIterator();
         if(playList.size()==0){
             System.out.println("No songs in playlist");

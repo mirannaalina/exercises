@@ -2,6 +2,7 @@ package arrayListCha;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class Album {
 
@@ -32,7 +33,7 @@ public class Album {
         return null;
     }
 
-    public boolean addToPlayList(int trackNumber, LinkedList<Song> playlist){
+    public boolean addToPlayList(int trackNumber, List<Song> playlist){
         int index = trackNumber-1;
 
         if((index>=0) && (index<= this.songs.size())){
@@ -44,7 +45,7 @@ public class Album {
         return false;
     }
 
-    public boolean addToPlayList(String title, LinkedList<Song> playlist){
+    public boolean addToPlayList(String title, List<Song> playlist){
         Song checkedSong =  findSong(title);
         if(checkedSong!=null){
             playlist.add(checkedSong);
