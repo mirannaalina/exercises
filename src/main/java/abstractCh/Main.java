@@ -12,9 +12,9 @@ public class Main {
         Parrot bird= new Parrot("PArr");
         bird.breath();
         bird.eat();
-        bird.fly();
+        bird.Fly();
 
         Penguin peng = new Penguin("Emperor");
-        peng.fly();
+        peng.Fly();
     }
 }
