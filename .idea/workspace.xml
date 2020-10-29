@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aee9068-12e2-44f4-81ff-aa87bd4267ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sets/StockItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sets/StockList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sets/Basket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sets/Challenge.java" afterPath="$PROJECT_DIR$/src/main/java/sets/Challenge.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StockList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sets/StockList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="-73">
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
@@ -135,24 +133,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Basket.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sets/Basket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DogMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/immutable/DogMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/immutable/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -185,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arrayListCha/Album.java" />
         <option value="$PROJECT_DIR$/src/main/java/section9/ITelephone.java" />
         <option value="$PROJECT_DIR$/src/main/java/section9/GearBox.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfChall9/ISaveable.java" />
@@ -236,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/main/java/sets/Challenge.java" />
         <option value="$PROJECT_DIR$/src/main/java/sets/StockItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/sets/StockList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sets/Basket.java" />
       </list>
     </option>
   </component>
@@ -252,11 +250,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
-    <option name="y" value="30" />
-    <option name="width" value="1391" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="794" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -351,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SetMain">
+  <component name="RunManager" selected="Application.Basket">
     <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -377,14 +374,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Basket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="immutable.*" />
+          <option name="PATTERN" value="sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="immutable.DogMain" />
+      <option name="MAIN_CLASS_NAME" value="sets.Basket" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -396,14 +393,14 @@
       <module name="volov" />
       <envs />
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="accesMod.*" />
+          <option name="PATTERN" value="immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="accesMod.Main" />
+      <option name="MAIN_CLASS_NAME" value="immutable.DogMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -555,19 +552,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BankAccountTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main (4)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DogMain" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SetMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DogMain" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SetMain" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Basket" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SetMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DogMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Basket" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SetMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DogMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +580,7 @@
       <updated>1599492421627</updated>
       <workItem from="1599492426632" duration="25837000" />
       <workItem from="1600431616311" duration="94887000" />
-      <workItem from="1603723220030" duration="8424000" />
+      <workItem from="1603723220030" duration="9631000" />
     </task>
     <task id="LOCAL-00001" summary="shapeEx">
       <created>1599645764421</created>
@@ -872,7 +869,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603896588731</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="collection">
+      <created>1603898991988</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1603898991988</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -908,10 +912,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129148000" />
+    <option name="totallyTimeSpent" value="130355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="794" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -922,7 +926,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39497042" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39497042" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25541127" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1036,13 +1040,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfChall9/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfChall9/ISaveable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1479,8 +1476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sets/StockList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="-73">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#191#192#0" expanded="true" />
@@ -1489,6 +1486,16 @@
             <element signature="e#1004#1005#0" expanded="true" />
             <element signature="e#1048#1049#0" expanded="true" />
             <element signature="e#1104#1105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sets/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
